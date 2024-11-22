@@ -1,3 +1,508 @@
+:root {
+    --logo-color: #000000;
+    --text-color: #FFFFFF;
+    --button-color: #7140EB;
+    --section-color: #49464F;
+    --main-color: #2E2C34;
+    --sectionitem-color: #F5F5F7;
+    --winterbutton-color: #F1EEF8;
+}
+ 
 body {
     font-family: "Roboto";
+}
+
+.container {
+    width: 1300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto ;
+    outline: 0px solid red;
+  }
+
+.header-logo {
+    width: 124px;
+    height: 70px;
+}
+
+.catalog-link {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.019055556; 
+    font-weight: normal;
+}
+
+.catalog-button {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.019055556; 
+    width: 183px;
+    height: 42px;
+    border-radius: 999px;
+    background: var(--button-color);
+    font-weight: normal;
+}
+
+.hero-title {
+    color: var(--text-color);
+    font-size: 99px;
+    line-height: 1.123151515; 
+    letter-spacing: 5px;
+    width: 540px;
+    font-weight: normal;
+}
+
+.hero-subtitle {
+    color: var(--text-color);
+    font-size: 98px;
+    line-height: 1.134612245;
+    letter-spacing: 5px;
+    width: 472px;
+    font-weight: normal;
+}
+
+.hero-desc {
+    color: var(--text-color);
+    font-size: 21px;
+    line-height: 1.106428571; 
+    width: 293px;
+    font-weight: normal;
+}
+
+.hero-text {
+    color: var(--text-color);
+    font-size: 21px;
+    line-height: 1.106428571; 
+    width: 277px;
+    font-weight: normal;
+}
+
+.hero-button {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.019055556; 
+    width: 183px;
+    height: 42px;
+    border-radius: 999px;
+    background: var(--button-color); 
+    font-weight: normal;
+}
+
+.howitworks {
+    background: var(--text-color);
+}
+
+.howitworks-title {
+    color: var(--section-color);
+    font-size: 67px;
+    line-height: 0.9961940299;
+    width: 391px;
+    font-weight: normal;
+}
+
+.sked-desc {
+    color: var(--section-color);
+    font-size: 28px;
+    line-height: 1.229392857; 
+    width: 264px;
+    font-weight: normal;
+}
+
+.howitworks-button {
+    width: 189px;
+    height: 62px;
+    border-radius: 999px;
+    background: var(--button-color);
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.019055556; 
+    font-weight: normal;
+}
+
+.moveyourway {
+    background: var(--sectionitem-color);
+}
+
+.moveyourway-title {
+    color: var(--main-color);
+    font-size: 67px;
+    line-height: 0.9961940299;
+    font-weight: normal;
+}
+
+.moveyourway-desc {
+    color: var(--main-color);
+    font-size: 20px;
+    line-height: 1.24115;
+    font-weight: normal;
+}
+
+.list-item {
+    border-radius: 16px;
+    background: var(--text-color);
+    width: 334px;
+    height: 517px;
+}
+
+.list-image {
+    width: 286px;
+    height: 227px;
+}
+
+.list-desc {
+    color: var(--section-color);
+    font-size: 17px;
+    line-height: 1.270588235; 
+    font-weight: normal;
+}
+
+.list-button {
+    color: var(--button-color);
+    font-size: 16px;
+    line-height: 1.5; 
+    width: 107px;
+    height: 26px;
+    border-radius: 20px;
+    background: var(--winterbutton-color);
+    font-weight: normal;
+}
+
+.list-title {
+    color: var(--section-color);
+    font-size: 29px;
+    line-height: 1.187; 
+    font-weight: normal;
+}
+
+.list-subtitle {
+    color: var(--section-color);
+    font-size: 18px;
+    line-height: 1.2; 
+    font-weight: normal;
+}
+
+.list-btn {
+    color: var(--main-color);
+    font-size: 16px;
+    line-height: 1; 
+    width: 180px;
+    height: 61px;
+    border-radius: 999px;
+    border: 1px solid var(--main-color);
+    font-weight: normal;
+}
+
+.justride {
+    background: var(--sectionitem-color);
+}
+
+.justride-title {
+    color: var(--main-color);
+    font-size: 67px;
+    line-height: 0.9961940299; 
+    width: 426px;
+    font-weight: normal;
+}
+
+.justride-desc {
+    color: var(--main-color);
+    font-size: 18px;
+    line-height: 1.2; 
+    width: 313px;
+    font-weight: normal;
+}
+
+.justride-button {
+    color: var(--main-color);
+    font-size: 16px;
+    line-height: 1; 
+    width: 180px;
+    height: 40px;
+    border-radius: 999px;
+    border: 1px solid var(--main-color);
+    font-weight: normal;
+}
+
+.yourcity {
+    background-image: url(../img/man_with_scooter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-title {
+    color: var(--text-color);
+    font-size: 100px;
+    line-height: 1.11192; 
+    letter-spacing: 5px;
+    font-weight: normal;
+}
+
+.content-title {
+    color: var(--text-color);
+    font-size: 65px;
+    line-height: 1.026846154; 
+    font-weight: normal;
+}
+
+.content-subtitle {
+    color: var(--text-color);
+    font-size: 67px;
+    line-height: 0.9961940299; 
+    font-weight: normal;
+}
+
+.content-desc {
+    color: var(--text-color);
+    font-size: 21px;
+    line-height: 1.182047619;
+    font-weight: normal;
+}
+
+.content-button {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.019055556; 
+    width: 189px;
+    height: 62px;
+    border-radius: 999px;
+    background: var(--button-color);
+    font-weight: normal;
+}
+
+.content-subject {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.35; 
+    font-weight: normal;
+}
+
+.incharge {
+    background: var(--text-color);
+}
+
+.incharge-title {
+    color: var(--main-color);
+    font-size: 65px;
+    line-height: 1.026846154; 
+    width: 248px;
+    font-weight: normal;
+}
+
+.incharge-subtitle {
+    color: var(--main-color);
+    font-size: 21px;
+    line-height: 1.182047619; 
+    width: 252px;
+    font-weight: normal;
+}
+
+.roster-item {
+    width: 282px;
+    height: 37px;
+    border-radius: 40px;
+    background: var(--sectionitem-color);
+}
+
+.roster-item:hover {
+    width: 235px;
+    height: 37px;
+    border-radius: 40px;
+    border: 1px solid #000;
+    background: var(--sectionitem-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-weight: normal;
+}
+
+.roster-desc {
+    color: var(--section-color);
+    font-size: 16px;
+    line-height: 1.35; 
+    font-weight: normal;
+}
+
+.inventory-item {
+    width: 334px;
+    height: 518px;
+    border-radius: 16px;
+    background: var(--sectionitem-color);
+}
+
+.inventory-image {
+    width: 286px;
+    height: 227px;
+}
+
+.inventory-desc {
+    color: var(--section-color);
+    font-size: 17px;
+    line-height: 1.270588235; 
+    font-weight: normal;
+}
+
+.inventory-button {
+    color: var(--button-color);
+    font-size: 16px;
+    line-height: 1.5; 
+    width: 107px;
+    height: 26px;
+    border-radius: 20px;
+    background: var(--winterbutton-color);
+    font-weight: normal;
+}
+
+.inventory-title {
+    color: #2E2C34;
+    font-size: 29px;
+    line-height: 1.187;
+    width: 210px;
+    font-weight: normal;
+}
+
+.inventory-subtitle {
+    color: var(--main-color);
+    font-size: 18px;
+    line-height: 1.2; 
+    font-weight: normal;
+}
+
+.inventory-btn {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.019055556;
+    width: 189px;
+    height: 62px;
+    border-radius: 999px;
+    background: var(--button-color);
+    font-weight: normal;
+}
+
+.wantto {
+    background: var(--sectionitem-color);
+}
+
+.wantto-title {
+    color: var(--main-color);
+    font-size: 67px;
+    line-height: 0.9961940299; 
+    width: 235px;
+    font-weight: normal;
+}
+
+.wantto-subtitle {
+    width: 186px;
+    color: var(--main-color);
+    font-size: 66px;
+    line-height: 1.011287879; 
+    font-weight: normal;
+}
+
+.wantto-button {
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1; 
+    width: 180px;
+    height: 39px;
+    border-radius: 999px;
+    border: 1px solid var(--main-color);
+}
+
+.roll-text {
+    color: var(--main-color);
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 1.182047619; 
+}
+
+.roll-text::before {
+    content: url(../img/plus.png);
+}
+
+.ourmembers {
+    background: var(--text-color);
+}
+
+.ourmembers-title {
+    color: var(--section-color);
+    font-family: Roboto;
+    font-size: 66px;
+    font-weight: normal;
+    line-height: 1.011287879; 
+    width: 683px;
+}
+
+.docket-title {
+    color: var(--section-color);
+    font-size: 29px;
+    font-weight: normal;
+    line-height: 0.989137931; 
+    width: 246px;
+}
+
+.docket-title:nth-child(2) {
+    width: 256px;
+}
+
+.docket-desc {
+    color: var(--section-color);
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.429411765; 
+}
+
+.footer {
+    background-image: url(../img/footer_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer-title {
+    color: var(--text-color);
+    font-size: 29px;
+    font-weight: normal;
+    line-height: 1.187; 
+}
+
+.footer-desc {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5; 
+    width: 286px;
+}
+
+.shape-entry {
+    width: 314px;
+    height: 54px;
+    border-radius: 10px;
+    background: var(--text-color);
+    color: rgba(73, 70, 79, 0.80);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.375; 
+}
+
+.footer-text {
+    width: 259px;
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5; 
+}
+
+.schedule-link {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5; 
+}
+
+
+.schedule-menu,.schedule-products,.schedule-company,.schedule-legal {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
 }
