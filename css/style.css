@@ -13,11 +13,11 @@ body {
 }
 
 .container {
-    width: 1300px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 1054px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0 auto ;
-    outline: 0px solid red;
+    outline: 1px solid red;
 }
 
 .header, .hero {
@@ -28,9 +28,26 @@ body {
     background-attachment: fixed; 
 }
 
+.header {
+    padding-top: 15px;
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .header-logo {
     width: 124px;
     height: 70px;
+}
+
+
+.header-catalog {
+    display: flex;
+    gap: 30px;
+    align-items: center;
 }
 
 .catalog-link {
@@ -51,22 +68,22 @@ body {
     font-weight: normal;
 }
 
+.hero {
+    padding-top: 126px;
+    padding-bottom: 183px;
+    text-align: center;
+}
+
 .hero-title {
     color: var(--text-color);
     font-size: 99px;
     line-height: 1.123151515; 
     letter-spacing: 5px;
-    width: 540px;
+    width: 542px;
     font-weight: normal;
-}
-
-.hero-subtitle {
-    color: var(--text-color);
-    font-size: 98px;
-    line-height: 1.134612245;
-    letter-spacing: 5px;
-    width: 472px;
-    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 37px;
 }
 
 .hero-desc {
@@ -75,25 +92,20 @@ body {
     line-height: 1.106428571; 
     width: 293px;
     font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 57px;
 }
 
-.hero-text {
-    color: var(--text-color);
-    font-size: 21px;
-    line-height: 1.106428571; 
-    width: 277px;
-    font-weight: normal;
-}
 
 .hero-button {
     color: var(--text-color);
     font-size: 18px;
     line-height: 1.019055556; 
-    width: 183px;
-    height: 42px;
     border-radius: 999px;
     background: var(--button-color); 
     font-weight: normal;
+    padding: 12px 51px;
 }
 
 .howitworks {
