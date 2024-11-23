@@ -7,7 +7,7 @@
     --sectionitem-color: #F5F5F7;
     --winterbutton-color: #F1EEF8;
 }
- 
+
 body {
     font-family: "Roboto";
 }
@@ -18,7 +18,15 @@ body {
     padding-right: 15px;
     margin: 0 auto ;
     outline: 0px solid red;
-  }
+}
+
+.header, .hero {
+    background-image: url(../img/header_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
 
 .header-logo {
     width: 124px;
@@ -104,8 +112,55 @@ body {
     color: var(--section-color);
     font-size: 28px;
     line-height: 1.229392857; 
-    width: 264px;
     font-weight: normal;
+}
+
+.sked-item {
+    color: var(--section-color);
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.434291667; 
+}
+
+.sked-item:first-child {
+    width: 170px;
+}
+
+.sked-item:nth-child(2) {
+    width: 215px;
+}
+
+.sked-item:nth-child(3) {
+    width: 264px;
+}
+
+.sked-item:nth-child(4) {
+    width: 138px;
+}
+
+.sked-item::before {
+    content: " ";
+    width: 20px;
+    color: var(--section-color);
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.434291667; 
+}
+
+.sked-item:first-child::before {
+    content: "1.";
+}
+
+.sked-item:nth-child(2)::before {
+    content: "2.";
+}
+
+.sked-item:nth-child(3)::before {
+    content: "3.";
+}
+
+.sked-item:nth-child(4)::before {
+    content: "4.";
 }
 
 .howitworks-button {
@@ -128,6 +183,7 @@ body {
     font-size: 67px;
     line-height: 0.9961940299;
     font-weight: normal;
+    width: 449px;
 }
 
 .moveyourway-desc {
@@ -135,6 +191,7 @@ body {
     font-size: 20px;
     line-height: 1.24115;
     font-weight: normal;
+    width: 435px;
 }
 
 .list-item {
@@ -154,6 +211,7 @@ body {
     font-size: 17px;
     line-height: 1.270588235; 
     font-weight: normal;
+    width: 145px;
 }
 
 .list-button {
@@ -172,6 +230,7 @@ body {
     font-size: 29px;
     line-height: 1.187; 
     font-weight: normal;
+    width: 210px;
 }
 
 .list-subtitle {
@@ -179,6 +238,7 @@ body {
     font-size: 18px;
     line-height: 1.2; 
     font-weight: normal;
+    width: 44px;
 }
 
 .list-btn {
@@ -224,10 +284,30 @@ body {
 }
 
 .yourcity {
-    background-image: url(../img/man_with_scooter.jpg);
+    background-image: url(../img/man_with_scooter.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.items-item:first-child {
+    width: 280px;
+}
+
+.items-item:nth-child(2) {
+    width: 473px;
+}
+
+.items-item:nth-child(3) {
+    width: 376px;
+}
+
+.items-item:nth-child(4) {
+    width: 248px;
+}
+
+.items-item:nth-child(5) {
+    width: 348px;
 }
 
 .item-title {
@@ -298,27 +378,30 @@ body {
 }
 
 .roster-item {
-    width: 282px;
-    height: 37px;
-    border-radius: 40px;
-    background: var(--sectionitem-color);
-}
-
-.roster-item:hover {
-    width: 235px;
-    height: 37px;
-    border-radius: 40px;
-    border: 1px solid #000;
-    background: var(--sectionitem-color);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    font-weight: normal;
-}
-
-.roster-desc {
     color: var(--section-color);
     font-size: 16px;
-    line-height: 1.35; 
     font-weight: normal;
+    line-height: 1.35; 
+    border-radius: 40px;
+    border: 1px solid var(--logo-color);
+    background: var(--sectionitem-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.roster-item:first-child {
+    width: 171px;
+}
+
+.roster-item:nth-child(2) {
+    width: 218px;
+}
+
+.roster-item:nth-child(3) {
+    width: 163px;
+}
+
+.roster-item:nth-child(4) {
+    width: 114px;
 }
 
 .inventory-item {
@@ -452,7 +535,7 @@ body {
 }
 
 .footer {
-    background-image: url(../img/footer_background.jpg);
+    background-image: url(../img/footer_background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
