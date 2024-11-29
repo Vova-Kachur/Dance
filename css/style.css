@@ -1,3 +1,4 @@
+
 :root {
     --logo-color: #000000;
     --text-color: #FFFFFF;
@@ -709,6 +710,9 @@ body {
 .footerbox {
     display: flex;
     justify-content: space-between;
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 
 .containerbox {
@@ -745,7 +749,7 @@ body {
     line-height: 1.375; 
     margin-bottom: 25px;
     padding: 18px 135px 14px 16px;
-    margin-right: 120px;
+    margin-right: 132px;
 }
 
 .footer-text {
@@ -765,7 +769,26 @@ body {
 .item-schedule {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+}
+
+.schedule-item {
+    margin-bottom: 16px;
+}
+
+.schedule-item:first-child {
+    margin-bottom: 8px;
+}
+
+.schedule-item:last-child {
+    margin-bottom: 0px;
+}
+
+.forbusiness {
+    width: 93px;
+}
+
+.subscription {
+    width: 143px;
 }
 
 .schedule-link {
@@ -774,7 +797,6 @@ body {
     font-weight: normal;
     line-height: 1.5; 
 }
-
 
 .schedule-menu, .schedule-products, .schedule-company, .schedule-legal {
     color: rgba(255, 255, 255, 0.50);
