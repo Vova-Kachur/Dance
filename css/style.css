@@ -60,8 +60,7 @@ body {
     color: var(--text-color);
     font-size: 18px;
     line-height: 1.019055556; 
-    width: 183px;
-    height: 42px;
+    padding: 11px 51px 12px 51px;
     border-radius: 999px;
     background: var(--button-color);
     font-weight: normal;
@@ -172,6 +171,7 @@ body {
 }
 
 .howitworks-button {
+   padding: 20px 54px 23px 54px;
     border-radius: 999px;
     background: var(--button-color);
     color: var(--text-color);
@@ -244,7 +244,8 @@ body {
     color: var(--button-color);
     font-size: 16px;
     line-height: 1.5; 
-    padding: 22px 60px;
+    width: 107px;
+    height: 26px;
     border-radius: 20px;
     background: var(--winterbutton-color);
     font-weight: normal;
@@ -275,15 +276,16 @@ body {
     color: var(--main-color);
     font-size: 16px;
     line-height: 1; 
-    padding: 22px 60px;
+    padding: 22px 60px 23px 39px;
     border-radius: 999px;
     border: 1px solid var(--main-color);
     font-weight: normal;
     background-image: url(../img/arrow.png);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: center right;
+    background-position: 122px center;
 }
+
 
 .justride {
     background: var(--sectionitem-color);
@@ -319,14 +321,14 @@ body {
     color: var(--main-color);
     font-size: 16px;
     line-height: 1; 
-    padding: 12px 60px;
+    padding: 12px 60px 12px 39px;
     border-radius: 999px;
     border: 1px solid var(--main-color);
     font-weight: normal;
     background-image: url(../img/arrow.png);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: center right;
+    background-position: 125px center;
 }
 
 .yourcity {
@@ -373,10 +375,7 @@ body {
     color: var(--text-color);
     font-size: 18px;
     line-height: 1.019055556; 
-    padding-left: 54px;
-    padding-right: 54px;
-    padding-top: 20px;
-    padding-bottom: 23px;
+   padding: 20px 54px 23px 54px ;
     border-radius: 999px;
     background: var(--button-color);
     font-weight: normal;
@@ -394,27 +393,9 @@ body {
 .yourcity-items {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
 }
 
-.items-item:first-child {
-    width: 280px;
-}
-
-.items-item:nth-child(2) {
-    width: 473px;
-}
-
-.items-item:nth-child(3) {
-    width: 376px;
-}
-
-.items-item:nth-child(4) {
-    width: 248px;
-}
-
-.items-item:nth-child(5) {
-    width: 348px;
-}
 
 .item-title {
     color: var(--text-color);
@@ -477,7 +458,7 @@ body {
     background-image: url(../img/chek.png);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: left center;
+    background-position: 20px center;
 
 }
 
@@ -493,7 +474,7 @@ body {
     background-image: url(../img/chek.png);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: left center;
+    background-position: 20px center;
 }
 
 .roster-item:first-child {
@@ -571,7 +552,7 @@ body {
     color: var(--text-color);
     font-size: 18px;
     line-height: 1.019055556;
-    padding: 22px 60px;
+    padding: 20px 54px 23px 54px;
     border-radius: 999px;
     background: var(--button-color);
     font-weight: normal;
@@ -603,13 +584,13 @@ body {
     font-size: 16px;
     font-weight: normal;
     line-height: 1; 
-    padding: 12px 60px;
+    padding: 12px 55px 11px 44px;
     border-radius: 999px;
     border: 1px solid var(--main-color);
     background-image: url(../img/arrow.png);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: center right;
+    background-position: 130px center;
 }
 
 .wantto-roll {
@@ -725,16 +706,8 @@ body {
 .footerbox {
     display: flex;
     justify-content: space-between;
-    background-image: url(../img/instagram.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
 }
 
-.containerbox {
-    background-image: none;
-    padding-top: 0;
-    padding-bottom: 0;
-}
 
 .footer-title {
     color: var(--text-color);
@@ -765,10 +738,10 @@ body {
     margin-bottom: 25px;
     padding: 18px 135px 14px 16px;
     margin-right: 132px;
-    background-image: url(../img/arrow.png);
+    background-image: url(../img/big_arrow.png);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: center right;
+    background-position: 285px center;
 }
 
 .footer-text {
@@ -822,4 +795,15 @@ body {
     font-size: 16px;
     font-weight: normal;
     line-height: 1.5;
+}
+
+.footer-ulbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-linkbox {
+    display: flex;
+    margin-top: 180px;
+    margin-left: 560px;
 }
