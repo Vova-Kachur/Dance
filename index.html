@@ -23,6 +23,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header">
@@ -36,19 +37,33 @@
         </a>
         <ul class="header-catalog">
           <li class="catalog-item">
-            <a href="#" class="catalog-link animate__animated animate__fadeIn">Concierge</a>
+            <a href="#" class="catalog-link animate__animated animate__fadeIn"
+              >Concierge</a
+            >
           </li>
           <li class="catalog-item">
-            <a href="#justride" class="catalog-link animate__animated animate__fadeIn">Rides</a>
+            <a
+              href="#justride"
+              class="catalog-link animate__animated animate__fadeIn"
+              >Rides</a
+            >
           </li>
           <li class="catalog-item">
-            <a href="#" class="catalog-link animate__animated animate__fadeIn">For Business</a>
+            <a href="#" class="catalog-link animate__animated animate__fadeIn"
+              >For Business</a
+            >
           </li>
           <li class="catalog-item">
-            <a href="#" class="catalog-link animate__animated animate__fadeIn">En</a>
+            <a href="#" class="catalog-link animate__animated animate__fadeIn"
+              >En</a
+            >
           </li>
           <li class="catalog-item">
-            <button class="catalog-button animate__animated animate__fadeInRightBig">Start now</button>
+            <button
+              class="catalog-button animate__animated animate__fadeInRightBig"
+            >
+              Start now
+            </button>
           </li>
         </ul>
       </div>
@@ -56,15 +71,19 @@
     <main>
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title animate__animated animate__flip">Your future is electric</h1>
+          <h1 class="hero-title animate__animated animate__flip">
+            Your future is electric
+          </h1>
           <p class="hero-desc animate__animated animate__lightSpeedInRight">
             Get your own ebike or emoped with our flexible subscription
           </p>
-          <button class="hero-button animate__animated animate__bounceInUp">Start now</button>
+          <button class="hero-button animate__animated animate__bounceInUp">
+            Start now
+          </button>
         </div>
       </section>
       <section class="howitworks">
-        <div class="container">
+        <div class="container" data-aos="flip-up">
           <h2 class="howitworks-title">How it works</h2>
           <ol class="howitworks-sked">
             <li class="sked-item">
@@ -84,7 +103,7 @@
         </div>
       </section>
       <section class="moveyourway">
-        <div class="container">
+        <div class="container" data-aos="zoom-in-left">
           <h2 class="moveyourway-title">Move your way</h2>
           <p class="moveyourway-desc">
             Choose the electric ride that suits your lifestyle.
@@ -106,7 +125,12 @@
                 class="list-image"
                 alt="bicycle_with_frame"
               />
-              <div class="list-box">
+              <div
+                class="list-box"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
                 <p class="list-desc">From €59 €39 /mo</p>
                 <button class="list-button">Winter offer</button>
               </div>
@@ -128,7 +152,11 @@
         </div>
       </section>
       <section class="justride" id="justride">
-        <div class="container">
+        <div
+          class="container"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
           <h2 class="justride-title">Just ride—we’ll take care of the rest</h2>
           <p class="justride-desc">
             Your local Concierge Team will repair or replace your ride within 24
@@ -137,9 +165,15 @@
           <button class="justride-button">See details</button>
         </div>
       </section>
-      <section class="yourcity">
+      <section class="yourcity" class="yourcity-content"
+      data-aos="fade-up"
+      data-aos-duration="3000">
         <div class="container yourcity-box">
-          <div class="yourcity-content">
+          <div
+            class="yourcity-content"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <h3 class="content-title">Your city is our city</h3>
             <p class="content-desc">
               Our rides are available in 5 European cities — and counting.
@@ -168,7 +202,12 @@
       </section>
       <section class="incharge">
         <div class="container incharge-box">
-          <div class="incharge-titlebox">
+          <div
+            class="incharge-titlebox"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <h2 class="incharge-title">You’re in charge</h2>
             <p class="incharge-subtitle">
               Your subscription is fully flexible—with free cancelation at any
@@ -196,7 +235,12 @@
                 class="inventory-image"
                 alt="bicycle"
               />
-              <div class="item-box">
+              <div
+                class="item-box"
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+              >
                 <p class="inventory-desc">From €59 €39 /mo</p>
                 <button class="inventory-button">Winter offer</button>
               </div>
@@ -210,7 +254,13 @@
                 class="inventory-image"
                 alt="scooter"
               />
-              <div class="item-box">
+              <div data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+                class="item-box"
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom"
+              >
                 <p class="inventory-desc">From €89 €39 /mo</p>
                 <button class="inventory-button">Winter offer</button>
               </div>
@@ -222,8 +272,8 @@
         </div>
       </section>
       <section class="wantto">
-        <div class="container wanttobox">
-          <div class="wanto-textbox">
+        <div class="container wanttobox" data-aos="fade-up-right">
+          <div class="wanto-textbox" data-aos="fade-up-right">
             <h2 class="wantto-title">Want to know more?</h2>
             <button class="wantto-button">Learn more</button>
           </div>
@@ -255,7 +305,7 @@
         </div>
       </section>
       <section class="ourmembers">
-        <div class="container">
+        <div class="container" data-aos="fade-down-right">
           <h2 class="ourmembers-title">What our members say</h2>
           <ul class="ourmembers-docket">
             <li class="docket-item">
@@ -282,8 +332,8 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container footerbox">
-        <div class="footer-containerbox">
+      <div class="container footerbox" data-aos="flip-left">
+        <div class="footer-containerbox" data-aos="flip-left">
           <h2 class="footer-title">Stay up to speed</h2>
           <p class="footer-desc">
             Sign up to get the latest Dance offers, updates, and tips straight
@@ -302,7 +352,7 @@
             clicked through. For more information.
           </p>
         </div>
-        <div class="footer-ulbox">
+        <div class="footer-ulbox" data-aos="flip-up">
           <ul class="footer-bill">
             <li class="bill-item">
               <ul class="item-schedule">
@@ -408,5 +458,9 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
