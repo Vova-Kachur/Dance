@@ -1,0 +1,111 @@
+.footer {
+    background-image: url(../img/footer_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 98px;
+    padding-bottom: 21px;
+}
+
+.footerbox {
+    display: flex;
+    justify-content: space-between;
+    width: 1115px;
+}
+
+.footer-title {
+    color: var(--text-color);
+    font-size: 29px;
+    font-weight: normal;
+    line-height: 1.187; 
+    width: 217px;
+    margin-bottom: 18px;
+}
+
+.footer-desc {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5; 
+    width: 286px;
+    width: 286px;
+    margin-bottom: 29px;
+}
+
+.shape-entry {
+    border-radius: 10px;
+    background: var(--text-color);
+    color: rgba(73, 70, 79, 0.80);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.375; 
+    margin-bottom: 25px;
+    padding: 18px 135px 14px 16px;
+    margin-right: 132px;
+    background-image: url(../img/big_arrow.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 285px center;
+    transition: box-shadow 600ms;
+}
+
+.shape-entry:hover,
+.shape-entry:focus {
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.footer-text {
+    width: 259px;
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5; 
+    width: 259px;
+}
+
+.footer-bill {
+    display: flex;
+    gap: 95px;
+}
+
+.item-schedule {
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule-item {
+    margin-bottom: 16px;
+}
+
+.schedule-item:first-child {
+    margin-bottom: 8px;
+}
+
+.schedule-item:last-child {
+    margin-bottom: 0px;
+}
+
+.schedule-link {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5; 
+}
+
+.schedule-menu, .schedule-products, .schedule-company, .schedule-legal {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.footer-ulbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-linkbox {
+    display: flex;
+    margin-top: 180px;
+    margin-left: 560px;
+}

@@ -1,0 +1,49 @@
+.header > .container {
+    width: 1200px;
+}
+
+.header, .hero {
+    background-image: linear-gradient(5deg, rgba(190,115,232,0.35) 50%, rgba(190,115,232,0.35)), url(../img/woman_on_bicycle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+.header {
+    padding-top: 15px;
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-catalog {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.catalog-link {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.019055556; 
+    font-weight: normal;
+}
+
+.catalog-button {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.019055556; 
+    padding: 11px 51px 12px 51px;
+    border-radius: 999px;
+    background: var(--button-color);
+    font-weight: normal;
+    transition: background-color 0.4s, box-shadow 0.2s 0.3s;
+}
+
+.catalog-button:hover {
+    background-color: #8A2BE2; 
+}
