@@ -1,0 +1,79 @@
+.yourcity {
+    background-image: url(../img/man_with_scooter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 98px;
+    padding-bottom: 69px;
+}
+
+.yourcity-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.yourcity-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.content-title {
+    color: var(--text-color);
+    font-size: 65px;
+    line-height: 1.026846154; 
+    font-weight: normal;
+    width: 319px;
+    margin-bottom: 12px;
+}
+
+.content-desc {
+    color: var(--text-color);
+    font-size: 21px;
+    line-height: 1.182047619;
+    font-weight: normal;
+    width: 242px;
+    margin-bottom: 29px;
+}
+
+.content-button {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.019055556; 
+    width: 189px;
+    height: 62px;
+    border-radius: 999px;
+    background: var(--button-color);
+    font-weight: normal;
+    transition: background-color 0.4s, box-shadow 0.2s 0.3s;
+}
+
+.content-button:hover {
+    background-color: #8A2BE2;
+}
+
+.content-subject {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.35; 
+    font-weight: normal;
+    width: 249px;
+    margin-top: 33px;
+}
+
+.yourcity-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.item-title {
+    color: var(--text-color);
+    font-size: 100px;
+    line-height: 1.11192; 
+    letter-spacing: 5px;
+    font-weight: normal;
+}

@@ -1,0 +1,110 @@
+.moveyourway {
+    background: var(--sectionitem-color);
+    padding-top: 68px;
+    padding-bottom: 73px;
+}
+
+.moveyourway-title {
+    color: var(--main-color);
+    font-size: 67px;
+    line-height: 0.9961940299;
+    font-weight: normal;
+    width: 449px;
+    margin-bottom: 27px;
+}
+
+.moveyourway-desc {
+    color: var(--main-color);
+    font-size: 20px;
+    line-height: 1.24115;
+    font-weight: normal;
+    width: 435px;
+    margin-bottom: 48px;
+}
+
+.moveyourway-list {
+    display: flex;
+    gap: 16px;
+}
+
+.list-item {
+    border-radius: 16px;
+    background: var(--text-color);
+    width: 334px;
+    padding: 67px 24px 32px 24px;
+    transition: box-shadow 600ms;
+}
+
+.list-item:hover {
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.list-box {
+    display: flex;
+}
+
+.list-desc {
+    color: var(--section-color);
+    font-size: 17px;
+    line-height: 1.270588235; 
+    font-weight: normal;
+    width: 145px;
+    margin-right: 16px;
+    margin-bottom: 39px;
+}
+
+.list-button {
+    color: var(--button-color);
+    font-size: 16px;
+    line-height: 1.5; 
+    width: 107px;
+    height: 26px;
+    border-radius: 20px;
+    background: var(--winterbutton-color);
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    transition: background-color 0.4s, box-shadow 0.2s 0.3s;
+}
+
+.list-button:hover {
+    background-color: #e3edfc;
+}
+
+.list-title {
+    color: var(--section-color);
+    font-size: 29px;
+    line-height: 1.187; 
+    font-weight: normal;
+    width: 210px;
+}
+
+.list-subtitle {
+    color: var(--section-color);
+    font-size: 18px;
+    line-height: 1.2; 
+    font-weight: normal;
+    width: 67px;
+    margin-bottom: 11px;
+}
+
+.list-btn {
+    color: var(--main-color);
+    font-size: 16px;
+    line-height: 1; 
+    padding: 22px 60px 23px 39px;
+    border-radius: 999px;
+    border: 1px solid var(--main-color);
+    font-weight: normal;
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 122px center;
+    transition: background-color 0.4s, box-shadow 0.2s 0.3s;
+}
+
+.list-btn:hover {
+    background-color: #fafafa;
+}

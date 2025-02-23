@@ -1,0 +1,163 @@
+.incharge {
+    background: var(--text-color);
+    padding-top: 69px;
+    padding-bottom: 74px;
+}
+
+.incharge-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.incharge-title {
+    color: var(--main-color);
+    font-size: 65px;
+    line-height: 1.026846154; 
+    width: 248px;
+    font-weight: normal;
+    margin-bottom: 27px;
+}
+
+.incharge-subtitle {
+    color: var(--main-color);
+    font-size: 21px;
+    line-height: 1.182047619; 
+    width: 252px;
+    font-weight: normal;
+    margin-bottom: 36px;
+}
+
+.incharge-roster {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.roster-item {
+    border-radius: 40px;
+    background: var(--sectionitem-color);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.35; 
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 48px;
+    padding-right: 16px;
+    height: 37px;
+    background-image: url(../img/chek.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 20px center;
+    transition: box-shadow 500ms;
+}
+
+.roster-item:hover {
+    color: var(--section-color);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.35; 
+    border-radius: 40px;
+    border: 1px solid var(--logo-color);
+    background: var(--sectionitem-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-image: url(../img/chek.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 20px center;
+}
+
+.roster-item:first-child {
+    width: 235px;
+}
+
+.roster-item:nth-child(2) {
+    width: 282px;
+}
+
+.roster-item:nth-child(3) {
+    width: 227px;
+}
+
+.roster-item:nth-child(4) {
+    width: 178px;
+}
+
+.incharge-inventory {
+    display: flex;
+    gap: 16px;
+}
+
+.inventory-item {
+    width: 334px;
+    height: 518px;
+    border-radius: 16px;
+    background: var(--sectionitem-color);
+    padding: 67px 24px 32px 24px;
+    transition: box-shadow 600ms;
+}
+
+.inventory-item:hover {
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.item-box {
+    display: flex;
+}
+
+.inventory-desc {
+    color: var(--section-color);
+    font-size: 17px;
+    line-height: 1.270588235; 
+    font-weight: normal;
+    width: 145px;
+    margin-right: 16px;
+    margin-bottom: 38px;
+}
+
+.inventory-button {
+    color: var(--button-color);
+    font-size: 16px;
+    line-height: 1.5; 
+    width: 107px;
+    height: 26px;
+    border-radius: 20px;
+    background: var(--winterbutton-color);
+    font-weight: normal;
+    transition: background-color 0.4s, box-shadow 0.2s 0.3s;
+}
+
+.inventory-button:hover {
+    background-color: #e3edfc;
+}
+
+.inventory-title {
+    color: #2E2C34;
+    font-size: 29px;
+    line-height: 1.187;
+    width: 210px;
+    font-weight: normal;
+}
+
+.inventory-subtitle {
+    color: var(--main-color);
+    font-size: 18px;
+    line-height: 1.2; 
+    font-weight: normal;
+    width: 67px;
+    margin-bottom: 12px;
+}
+
+.inventory-btn {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.019055556;
+    padding: 20px 54px 23px 54px;
+    border-radius: 999px;
+    background: var(--button-color);
+    font-weight: normal;
+    transition: background-color 0.4s, box-shadow 0.2s 0.3s;
+}
+
+.inventory-btn:hover {
+    background-color: #8A2BE2;
+}

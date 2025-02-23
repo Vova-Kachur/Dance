@@ -1,0 +1,84 @@
+.howitworks {
+    background: var(--text-color);
+    padding-top: 68px;
+    padding-bottom: 73px;
+}
+
+.howitworks > .container {
+    background-image: url(../img/bicycle_and_scooter.png);
+    background-repeat: no-repeat;
+    background-position: 350px center;
+}
+
+.howitworks-title {
+    color: var(--section-color);
+    font-size: 67px;
+    line-height: 0.9961940299;
+    width: 391px;
+    font-weight: normal;
+    margin-bottom: 71px;
+}
+
+.howitworks-sked {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.sked-desc {
+    color: var(--section-color);
+    font-size: 28px;
+    line-height: 1.229392857; 
+    font-weight: normal;
+    margin-left: 15px;
+}
+
+.sked-item {
+    display: flex;
+}
+
+.sked-item::before {
+    content: " ";
+    width: 23px;
+    color: var(--section-color);
+    font-size: 27px;
+    font-weight: normal;
+    line-height: 1.434291667; 
+}
+
+.sked-item:first-child::before {
+    content: "1.";
+}
+
+.sked-item:nth-child(2)::before {
+    content: "2.";
+}
+
+.sked-item:nth-child(3)::before {
+    content: "3.";
+}
+
+.sked-item:nth-child(4)::before {
+    content: "4.";
+}
+
+.howitworks-button {
+    width: 189px;
+    height: 62px;
+    border-radius: 999px;
+    background: var(--button-color);
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.019055556; 
+    font-weight: normal;
+    margin-top: 51px;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-top: 20px;
+    padding-bottom: 23px;
+    transition: background-color 0.4s, box-shadow 0.2s 0.3s;
+}
+
+.howitworks-button:hover {
+    background-color: #8A2BE2;
+}
